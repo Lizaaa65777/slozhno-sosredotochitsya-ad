@@ -5,14 +5,16 @@
   font-family: 'IBM Plex mono', sans-serif;
   background-attachment: fixed;
   width: 1024px;
-    background-color: #FFF1F7;
+  background-color: #FFF1F7;
+  color: #353430;
 }
 
 .header__theme-menu-button {
   border: none;
   background-color: transparent;
   text-transform: lowercase;
-  padding: 2px 13px;
+  padding: 1.5px 13px;
+  font-size: 18px;
 }
 
 .header__theme-menu-button:hover {
@@ -20,7 +22,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid black;
+  border: 1px solid #353430;
 }
 
 .header__theme-menu-button:focus {
@@ -28,13 +30,14 @@
 }
 
 .header {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   background-image: url('../images/cover-image-light.png');
   background-repeat: no-repeat;
   height: 768px;
   background-position: center center;
   background-size: cover;
-  padding: 20px;
+  padding: 19px 0  0 0;
+
 }
 
 .header__theme-menu-list {
@@ -50,9 +53,9 @@
   font-family: 'IBM Plex mono', sans-serif;
   font-weight: bold;
   font-display: swap;
-  margin-top: 273px;
-  margin-bottom: 114px;
-    color: #FFC2E6;
+  margin-top: 236px;
+  margin-bottom: 77px;
+  color: #FFC2E6;
   text-shadow: 4px 4px 0px #FF8DCB;
 }
 
@@ -62,6 +65,7 @@
   font-size: 18px;
   display: block;
   background-color: #FF8DCB;
+  margin-right: 15px;
 }
 
 .subtitle {
@@ -76,9 +80,10 @@
 
 .section {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
+  grid-template-columns: 1fr 648px;
+  gap: 15px;
   padding: 20px;
+  margin-bottom: 28px;
 }
 
 .content-title {
@@ -90,12 +95,12 @@
 
 .content-text {
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
+ 
 }
 
 .section_ {
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 24px;
   padding: 20px;
 }
 
@@ -265,7 +270,6 @@ footer */
 .links {
   text-decoration: none;
   font-family: 'IBM Plex mono', sans-serif;
-  text-shadow: 2px 2px 0px #353430;
   text-shadow: 2px 2px 0px #FF8DCB;
 }
 
@@ -276,7 +280,7 @@ footer */
 .links:focus {
   border: 1px solid #353430;
 }
-.rec span{
+
+.rec span {
   display: none;
 }
- 

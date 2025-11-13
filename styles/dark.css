@@ -18,9 +18,7 @@
   color: #F1B2CE;
 }
 
-.theme-dark .subtitle p {
-  color: #000028;
-}
+
 
 .theme-dark .title {
 
@@ -54,6 +52,7 @@
 
 .theme-dark .subtitle p {
   background-color: #FF0070;
+  color: #000028;
 
 }
 

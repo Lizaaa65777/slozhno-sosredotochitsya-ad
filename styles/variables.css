@@ -15,7 +15,9 @@
     display: block;
     margin-left: 658px;
   }
-
+  .section_ .content {
+    display: block;
+  }
   .header {
     height: 1024px;
   }
@@ -102,9 +104,7 @@
     padding: 10px;
   }
 
-  .section_ .content {
-    display: block;
-  }
+
 
   .content-title {
     margin-bottom: 20px;

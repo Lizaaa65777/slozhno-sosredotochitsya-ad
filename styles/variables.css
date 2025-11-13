@@ -2,3 +2,169 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+@media (max-width: 768px) {
+
+  .page {
+    width: 768px;
+
+  }
+
+  .header__theme-menu-list {
+    padding: 146px 0 174px 0;
+    justify-content: end;
+    display: block;
+    margin-left: 658px;
+  }
+
+  .header {
+    height: 1024px;
+  }
+
+  .title {
+    font-size: 120px;
+    margin: 0;
+    margin-bottom: 162px;
+  }
+
+  .subtitle p {
+    width: 364px;
+  }
+
+  .galerry_content {
+    grid-template-columns: repeat(3, 230px);
+    grid-template-rows: repeat(3, 230px);
+
+  }
+
+
+  .decorated-zone::after {
+    bottom: -185px;
+    left: 20px;
+
+  }
+
+  .footer::before {
+    top: 5100px;
+    right: 20px;
+  }
+
+  .footer::after {
+    bottom: -4970px;
+    left: 20px;
+  }
+
+}
+
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+@media (max-width: 375px) {
+
+  .page {
+    width: 375px;
+
+  }
+
+  .header__theme-menu-list {
+    padding: 75px 0 65px 0;
+    margin-left: 285px;
+  }
+
+  .header {
+    height: 668px;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-size: 116px;
+    line-height: 82.5%;
+    margin-bottom: 55px;
+  }
+
+  .subtitle {
+    margin: 0;
+  }
+
+  .section {
+    display: block;
+    padding: 10px;
+  }
+
+  .title2 {
+    margin-bottom: 20px;
+  }
+
+  .section_ {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+
+  .section_ .content {
+    display: block;
+  }
+
+  .content-title {
+    margin-bottom: 20px;
+  }
+
+  .galery {
+    padding: 10px;
+  }
+
+  .galerry_content {
+    grid-template-columns: repeat(1, 355px);
+    grid-template-rows: 142px 355px 237px 355px 237px;
+  }
+
+  .item1_img {
+    grid-column: span 1;
+
+  }
+
+  .item2_img {
+    grid-row: span 1;
+
+  }
+
+  .item3_img {
+    grid-row: span 1;
+
+  }
+
+  .item5_img {
+    grid-column: span 1;
+
+  }
+
+  .decorated-zone::before {
+    top: 10px;
+    right: 10px;
+  }
+
+  .decorated-zone::after {
+    bottom: 185px;
+    left: 10px;
+
+  }
+
+  .footer::before {
+    top: 6660px;
+    right: 20px;
+  }
+
+  .footer::after {
+    bottom: -6550px;
+    left: 20px;
+  }
+
+  .theme-dark .rec {
+    top: 10px;
+    right: 12px;
+  }
+.footer{
+    padding: 0 10px;
+  }
+}

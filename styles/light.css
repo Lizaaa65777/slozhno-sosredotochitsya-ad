@@ -16,29 +16,35 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: #FFF1F7;
 }
-.theme-light  .title{
- 
-  color: #FFC2E6; 
+
+.theme-light .title {
+
+  color: #FFC2E6;
   text-shadow: 4px 4px 0px #FF8DCB;
 }
-.theme-light header{
+
+.theme-light header {
   background-image: url('../images/cover-image-light.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 
 }
-.theme-light .subtitle p{
+
+.theme-light .subtitle p {
   background-color: #FF8DCB;
 
 }
-.theme-light .content-title{
+
+.theme-light .content-title {
   background-color: #FF8DCB;
 
 }
-.theme-light .content-title2{
+
+.theme-light .content-title2 {
   background-color: #FF8DCB;
 }
-.theme-light .links{
+
+.theme-light .links {
   text-shadow: 2px 2px 0px #FF8DCB;
 }

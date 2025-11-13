@@ -8,22 +8,26 @@
   background-color: #8483a3;
 }
 
-.header__theme-menu-button{
+.header__theme-menu-button {
   border: none;
   background-color: transparent;
   text-transform: lowercase;
   padding: 2px 13px;
 }
-.header__theme-menu-button:hover{
+
+.header__theme-menu-button:hover {
   border: 1px solid rgba(50, 49, 45, 0.4);
 }
-.header__theme-menu-button_active{
+
+.header__theme-menu-button_active {
   border: 1px solid black;
-} 
-.header__theme-menu-button:focus{
+}
+
+.header__theme-menu-button:focus {
   text-decoration: underline;
 }
-.header{
+
+.header {
   margin-bottom: 60px;
   background-image: url('../images/cover-image.png');
   background-repeat: no-repeat;
@@ -32,7 +36,8 @@
   background-size: cover;
   padding: 20px;
 }
-.header__theme-menu-list{
+
+.header__theme-menu-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,79 +45,91 @@
 
 }
 
-.title{
+.title {
   font-size: 157px;
   font-family: 'IBM Plex mono', sans-serif;
   font-weight: bold;
   font-display: swap;
   margin-top: 273px;
-  margin-bottom: 114px; 
+  margin-bottom: 114px;
   text-shadow: 4px 4px 0px #4e4e4e;
 }
-.subtitle p{
+
+.subtitle p {
   width: 497px;
   font-weight: bold;
   font-size: 18px;
   display: block;
 }
-.subtitle{
+
+.subtitle {
   width: 100%;
   display: flex;
   justify-content: end;
   margin-bottom: 135px;
- 
+
 }
 
 /*  */
 
-.section{
+.section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
   padding: 20px;
 }
-.content-title{
+
+.content-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-.content-text{
+
+.content-text {
   font-size: 18px;
   margin-bottom: 20px;
 }
-.section_{
+
+.section_ {
   margin-top: 60px;
   margin-bottom: 80px;
-    padding: 20px;
+  padding: 20px;
 }
-.section_ .content{
+
+.section_ .content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-.title2{
+
+.title2 {
   font-size: 18px;
 }
-.section_ .title2{
+
+.section_ .title2 {
   margin-bottom: 20px;
 
 
 }
-.content-title2{
+
+.content-title2 {
   margin-bottom: 10px;
 }
+
 /* gallary */
-.galery{
+.galery {
   padding: 20px;
 }
-.galerry_content{
+
+.galerry_content {
   display: grid;
   grid-template-columns: repeat(3, 315px);
-  grid-template-rows: repeat(3,315px);
+  grid-template-rows: repeat(3, 315px);
   gap: 20px;
-  
+
 }
-.item1_img{
+
+.item1_img {
   grid-column: span 2;
 
   background-image: url('../images/sunset.png');
@@ -121,28 +138,32 @@
   background-size: cover;
 
 }
-.item2_img{
+
+.item2_img {
   grid-row: span 2;
   background-image: url('../images/ice-cream.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.item3_img{
+
+.item3_img {
   grid-row: span 2;
   background-image: url('../images/tape.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.item4_img{
-  
+
+.item4_img {
+
   background-image: url('../images/books.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.item5_img{
+
+.item5_img {
   grid-column: span 2;
   background-image: url('../images/street.png');
   background-repeat: no-repeat;
@@ -152,16 +173,17 @@
 
 /* 
 footer */
-.footer .title{
- 
+.footer .title {
+
   text-align: center;
   margin: auto auto;
- 
+
   align-items: center;
   margin-top: 319px;
 
 }
-.footer{
+
+.footer {
   padding: 0 20px;
   height: 768px;
 
@@ -188,7 +210,7 @@ footer */
   border: none;
   border-top: 1px solid #353430;
   border-right: 1px solid #353430;
-  
+
 }
 
 .decorated-zone::after {
@@ -221,7 +243,7 @@ footer */
   border: none;
   border-top: 1px solid #353430;
   border-right: 1px solid #353430;
-  
+
 }
 
 .footer::after {
@@ -236,15 +258,17 @@ footer */
   border-left: 1px solid #353430;
 }
 
-.links{
+.links {
   text-decoration: none;
-  font-family:'IBM Plex mono', sans-serif;
+  font-family: 'IBM Plex mono', sans-serif;
   text-shadow: 2px 2px 0px #353430;
 
 }
-.links:hover{
+
+.links:hover {
   text-decoration: underline;
 }
-.links:focus{
+
+.links:focus {
   border: 1px solid #353430;
 }

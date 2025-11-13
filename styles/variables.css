@@ -164,13 +164,16 @@
     top: 10px;
     right: 12px;
   }
-  .footer{
-      padding: 0 10px;
-    }
+
+  .footer {
+    padding: 0 10px;
+  }
+
   .theme-dark span {
     top: 10px;
     right: 38px;
   }
+
   .theme-dark .rec::before {
     top: 18px;
     right: 19px;

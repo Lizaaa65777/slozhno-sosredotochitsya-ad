@@ -17,52 +17,62 @@
   background-color: #000028;
   color: #F1B2CE;
 }
-.theme-dark .subtitle p{
+
+.theme-dark .subtitle p {
   color: #000028;
 }
-.theme-dark  .title{
- 
-  color: #DB00FF; 
+
+.theme-dark .title {
+
+  color: #DB00FF;
   text-shadow: 4px 4px 0px #FF0070;
 }
 
-.theme-dark  .header__theme-menu-button{
+.theme-dark .header__theme-menu-button {
   border: none;
   background-color: transparent;
   text-transform: lowercase;
   padding: 2px 13px;
   color: #FF0070;
 }
-.theme-dark  .header__theme-menu-button:hover{
+
+.theme-dark .header__theme-menu-button:hover {
   border: 1px solid rgba(255, 0, 112, 0.4);
 }
-.theme-dark  .header__theme-menu-button_active{
+
+.theme-dark .header__theme-menu-button_active {
   border: 1px solid #FF0070;
-} 
-.theme-dark header{
+}
+
+.theme-dark header {
   background-image: url('../images/cover-image-dark.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 
 }
-.theme-dark .subtitle p{
+
+.theme-dark .subtitle p {
   background-color: #FF0070;
 
 }
-.theme-dark .content-title{
+
+.theme-dark .content-title {
   background-color: #FF0070;
   color: #000028;
 
 }
-.theme-dark .content-title2{
+
+.theme-dark .content-title2 {
   background-color: #FF0070;
   color: #000028;
 }
-.theme-dark .links{
+
+.theme-dark .links {
   text-shadow: 2px 2px 0px #FF0070;
 }
-.theme-dark  .title2{
+
+.theme-dark .title2 {
   color: #FF0070;
 }
 
@@ -71,7 +81,7 @@
 
   border-top: 1px solid #FF0070;
   border-right: 1px solid #FF0070;
-  
+
 }
 
 .theme-dark .decorated-zone::after {
@@ -85,7 +95,7 @@
 
   border-top: 1px solid #FF0070;
   border-right: 1px solid #FF0070;
-  
+
 }
 
 .theme-dark .footer::after {
@@ -102,6 +112,7 @@
   top: 20px;
   right: 48px;
 }
+
 .theme-dark .rec::before {
   content: '';
   position: absolute;

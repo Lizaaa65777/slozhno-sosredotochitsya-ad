@@ -93,11 +93,23 @@
   border-bottom: 1px solid #FF0070;
   border-left: 1px solid #FF0070;
 }
-.theme-dark .rec{
-  display: block;
-  display: flex;
-  justify-content: end;
+
+
+.theme-dark span {
+  font-size: 18px;
+  color: #FF0070;
   position: absolute;
   top: 20px;
-  right:  22px;
+  right: 48px;
+}
+.theme-dark .rec::before {
+  content: '';
+  position: absolute;
+  top: 28px;
+  right: 29px;
+  width: 9px;
+  height: 9px;
+  background-color: #FF0070;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 0, 112, 1);
 }

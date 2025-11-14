@@ -36,7 +36,7 @@
   height: 768px;
   background-position: center center;
   background-size: cover;
-  padding: 19px 0  0 0;
+  padding: 19px 0 0 0;
 
 }
 
@@ -92,14 +92,16 @@
   margin-bottom: 10px;
   background-color: #FF8DCB;
 }
-.mb{
+
+.mb {
   margin-bottom: 20px;
 }
+
 .content-text {
   font-size: 18px;
   margin-bottom: 22px;
   line-height: 23.4px;
- 
+
 }
 
 .section_ {

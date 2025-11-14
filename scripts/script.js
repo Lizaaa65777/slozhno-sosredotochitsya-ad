@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeButtons = [
     ...document.querySelectorAll('.header__theme-menu-button'),
   ];
-  setActiveButton(themeButtons, currentTheme);
+  setActiveButton(themeButtons, currentTheme || 'light');
 
   themeButtons.forEach((button) => {
     button.addEventListener('click', () => {
@@ -44,7 +44,7 @@ function setActiveButton(buttonsArray, theme) {
     target.setAttribute('disabled', true);
   } else {
     const autoButton = document.querySelector(
-      '.header__theme-menu-button_type_auto'
+      '.header__theme-menu-button_type_light'
     );
     autoButton.classList.add('header__theme-menu-button_active');
     autoButton.setAttribute('disabled', true);

@@ -21,6 +21,18 @@
   color: var(--text-color);
 }
 
+.theme-light .header__theme-menu-button {
+  color: var(--text-color);
+}
+
+.theme-light .header__theme-menu-button:hover {
+  border: 1px solid rgba(50, 49, 45, 0.4);
+}
+
+.theme-light .header__theme-menu-button_active {
+  border: 1px solid var(--text-color);
+}
+
 .theme-light .title {
   color: var(--acent);
   text-shadow: 4px 4px 0px var(--main-color);
@@ -36,7 +48,7 @@
 
 .theme-light .subtitle p {
   background-color: var(--main-color);
-
+  color: var(--text-color);
 }
 
 .theme-light .content-title {
@@ -76,7 +88,7 @@
   height: 25px;
   border: none;
   border-bottom: 1px solid var(--text-color);
-  border-left: 1px solid var(--main-color);
+  border-left: 1px solid var(--text-color);
 }
 
 .theme-light .footer::before {

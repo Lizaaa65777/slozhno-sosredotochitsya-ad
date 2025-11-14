@@ -6,14 +6,13 @@
 
   .page {
     width: 768px;
-
   }
 
   .header__theme-menu-list {
-    padding: 172px 0 130px 0;
+    padding: 170px 0 133px 0;
     justify-content: end;
     display: block;
-    margin-left: 670px;
+    margin-left: 678px;
   }
 
   .header__theme-menu-item {
@@ -23,6 +22,10 @@
   .section {
     grid-template-columns: 236px 472px;
     padding-top: 0;
+  }
+
+  .section_ {
+    margin-bottom: 78px;
   }
 
   .section_ .content {
@@ -113,34 +116,50 @@
     margin: 0;
   }
 
+  .subtitle p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
   .section {
     display: block;
     padding: 0 10px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .title2 {
     margin-bottom: 20px;
   }
 
+  .content-title {
+    margin-bottom: 10px;
+  }
+
   .section_ {
 
-    margin-bottom: 80px;
+    margin-bottom: 48px;
     padding: 0 10px;
+  }
+
+  .mb {
+    margin-bottom: 21px;
   }
 
   .mbm {
     margin-bottom: 40px;
   }
 
-
-
-  .content-title {
-    margin-bottom: 0px;
+  .content-text {
+    margin-bottom: 23px;
   }
 
   .galery {
     padding: 10px;
+  }
+
+  .gbm {
+    margin-bottom: 0;
   }
 
   .galerry_content {
@@ -170,7 +189,7 @@
   }
 
   .footer .title {
-    margin-top: 325px;
+    margin-top: 316px;
   }
 
   .decorated-zone::before {
@@ -201,6 +220,7 @@
 
   .footer {
     padding: 0 10px;
+    height: 212px;
   }
 
   .theme-dark span {

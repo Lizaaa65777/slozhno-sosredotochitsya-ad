@@ -37,7 +37,7 @@
 }
 
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   background-image: url('../images/cover-image-dark.png');
   background-repeat: no-repeat;
   height: 768px;
@@ -90,8 +90,8 @@
   display: grid;
   grid-template-columns: 1fr 648px;
   gap: 15px;
-  padding: 20px;
-  margin-bottom: 15px;
+  padding: 0 20px;
+  margin-bottom: 58px;
 }
 
 .content-title {
@@ -106,6 +106,10 @@
   margin-bottom: 20px;
 }
 
+.mbm {
+  margin-bottom: 45px;
+}
+
 .content-text {
   font-size: 18px;
   margin-bottom: 22px;
@@ -115,13 +119,14 @@
 
 .section_ {
 
-  padding: 20px;
+  padding: 0 20px;
+  margin-bottom: 60px;
 }
 
 .section_ .content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(3, 315px);
+  gap: 20px;
 }
 
 .title2 {
@@ -274,7 +279,7 @@ footer */
 .footer::after {
   content: '';
   position: absolute;
-  bottom: -4180px;
+  bottom: -4210px;
   left: 20px;
   width: 25px;
   height: 25px;

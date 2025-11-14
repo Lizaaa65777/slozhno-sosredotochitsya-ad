@@ -18,12 +18,12 @@
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: var(--fon);
+  color: var(--text-color);
 }
 
 .theme-light .title {
-
-  color: #FFC2E6;
-  text-shadow: 4px 4px 0px #FF8DCB;
+  color: var(--acent);
+  text-shadow: 4px 4px 0px var(--main-color);
 }
 
 .theme-light header {
@@ -35,19 +35,61 @@
 }
 
 .theme-light .subtitle p {
-  background-color: #FF8DCB;
+  background-color: var(--main-color);
 
 }
 
 .theme-light .content-title {
-  background-color: #FF8DCB;
+  background-color: var(--main-color);
+  color: var(--text-color);
 
 }
 
 .theme-light .content-title2 {
-  background-color: #FF8DCB;
+  background-color: var(--main-color);
+  color: var(--text-color);
 }
 
 .theme-light .links {
-  text-shadow: 2px 2px 0px #FF8DCB;
+  text-shadow: 2px 2px 0px var(--main-color);
+}
+
+.theme-light .title2 {
+  color: var(--text-color);
+}
+
+
+.theme-light .decorated-zone::before {
+
+
+  border-top: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+
+}
+
+.theme-light .decorated-zone::after {
+  content: '';
+  position: absolute;
+  bottom: 19px;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  border-left: 1px solid var(--main-color);
+}
+
+.theme-light .footer::before {
+  border-top: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+
+}
+
+.theme-light .footer::after {
+  border-bottom: 1px solid var(--text-color);
+  border-left: 1px solid var(--text-color);
+}
+
+.rec {
+  display: none;
 }

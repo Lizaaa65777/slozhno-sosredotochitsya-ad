@@ -4,20 +4,21 @@
   --acent: #DB00FF;
   --text-color: #F1B2CE;
   --fon: #000028;
+  --title-color:#FF0070;
+  --img:url('../images/cover-image-dark.png') ;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color:#fe0374 ;
+    --main-color:#FF8DCB ;
     --acent: #FFC2E6;
     --text-color: #353430;
     --fon: #FFF1F7;
-    
+    --title-color:#353430;
+    --img:url('../images/cover-image-dark.png');
   }
   
-  header {
-    background-image: url('../images/cover-image-light.png');
-  }
+
 }
 
 .page {
@@ -52,7 +53,7 @@
 
 .header {
   margin-bottom: 60px;
-  background-image: url('../images/cover-image-dark.png');
+  background-image: var(--img);
   background-repeat: no-repeat;
   height: 768px;
   background-position: center center;
@@ -145,7 +146,7 @@
 
 .title2 {
   font-size: 18px;
-  color: var(--main-color);
+  color: var(--title-color);
 }
 
 .section_ .title2 {

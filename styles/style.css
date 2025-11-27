@@ -8,10 +8,15 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color: #FF8DCB;
+    --main-color:#fe0374 ;
     --acent: #FFC2E6;
     --text-color: #353430;
     --fon: #FFF1F7;
+    
+  }
+  
+  header {
+    background-image: url('../images/cover-image-light.png');
   }
 }
 
@@ -224,9 +229,9 @@ footer */
 }
 
 .footer {
-  padding: 0 20px 20px;
+  padding: 0 20px;
   height: 768px;
-
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;

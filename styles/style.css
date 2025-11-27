@@ -6,6 +6,15 @@
   --fon: #000028;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-color: #FF8DCB;
+    --acent: #FFC2E6;
+    --text-color: #353430;
+    --fon: #FFF1F7;
+  }
+}
+
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   font-family: 'IBM Plex mono', sans-serif;

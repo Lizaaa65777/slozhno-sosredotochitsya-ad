@@ -15,7 +15,7 @@
     --text-color: #353430;
     --fon: #FFF1F7;
     --title-color:#353430;
-    --img:url('../images/cover-image-dark.png');
+    --img:url('../images/cover-image-light.png');
   }
   
 
@@ -114,7 +114,7 @@
   font-weight: bold;
   margin-bottom: 10px;
   background-color: var(--main-color);
-  color: var(--fon);
+  color: var(--title-color);
 }
 
 .mb {
